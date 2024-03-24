@@ -7,8 +7,6 @@ const Sidebar = () => {
   const { data, isLoading } = useLoggedInUser();
   const { logout } = useLogout();
 
-  console.log(data);
-
   return (
     <div className="bg-[#FFF5D1] min-w-1/6 p-12 flex flex-col justify-between items-start h-full">
       {isLoading ? (
